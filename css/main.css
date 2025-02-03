@@ -130,8 +130,8 @@
 
 
 .row-6 {
-    background-color: #228b22;
     width: 1200px;
+    text-align: center;
 }
 
 /******** section ************/
@@ -200,12 +200,24 @@ button {
     background-color: #23272a;
 }
 
+.mac-stars {
+    background-color: #7288da;
+    color: #ffffff;
+    padding: 15px 10px;
+    font-size: 20px;
+}
+
 /***** titoli container *****/
 
 h2 {
     font-size: 55px;
     padding-top: 30px;
     padding-bottom: 35px;
+}
+
+h3{
+    font-size: 30px;
+    padding-bottom: 60px;
 }
 
 /*** paragrafi ***/
@@ -221,11 +233,18 @@ span {
     font-size: 20px;
 }
 
+
+/**** stelle ****/
+
+.stelle {
+    width: 631px;
+}
+
 /****** da rimuovere *****/
 
-.debug .row-6 {
+/*.debug .row-6 {
     height: 900px;
-}
+}*/
 
 
 
