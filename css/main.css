@@ -55,19 +55,18 @@
 
 .bg-gray{
     background-color: #f6f6f6;
+    padding-bottom: 150px;
 }
 
 .bg-black {
     background-color: #23272a;
     padding-top: 20px;
     padding-bottom: 30px;
-    border-bottom: 5px solid white;
 }
 
 .bg-black-foot {
     background-color: #23272a;
     padding-top: 20px;
-    border-bottom: 5px solid white;
 }
 
 
@@ -103,15 +102,18 @@
     display: flex;
     width: 1200px;
     margin: 0 auto;
+    padding-top: 70px;
 }
 
 .container-8 {
-    background-color: #7fffd4;
     display: flex;
     width: 1200px;
     margin: 0 auto;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
+    border-top: 2px solid #7288da;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 /****** row *********/
 
@@ -144,46 +146,25 @@ main > section {
 /********** footer ************/
 
 .foo-1 {
-    background-color: #f08080;
     width: 360px;
 }
 
 .foo-2  {
     flex-grow: 1;
-    background-color: #20b2aa;
-    border: 2px dotted white;
 }
 
 .foo-3  {
     flex-grow: 1;
-    background-color: #20b2aa;
-    border: 2px dotted white;
 }
 
 .foo-4  {
     flex-grow: 1;
-    background-color: #20b2aa;
-    border: 2px dotted white;
 }
 
 .foo-5  {
     flex-grow: 1;
-    background-color: #20b2aa;
-    border: 2px dotted white;
 }
 
-
-.bottone {
-    background-color: #ffb6c1;
-    border: 2px dotted black;
-    padding: 10px;
-}
-
-.logo-foot{
-    background-color: #ffb6c1;
-    border: 2px dotted black;
-    padding: 10px;
-}
 
 /******* bottoni *******/
 
@@ -207,6 +188,13 @@ button {
     font-size: 20px;
 }
 
+.registrati {
+    background-color: #7288da;
+    color: #ffffff;
+
+}
+
+
 /***** titoli container *****/
 
 h2 {
@@ -218,6 +206,12 @@ h2 {
 h3{
     font-size: 30px;
     padding-bottom: 60px;
+}
+
+h4{
+    font-size: 40px;
+    color: #7288da;
+    padding-bottom: 40px;
 }
 
 /*** paragrafi ***/
@@ -233,6 +227,9 @@ span {
     font-size: 20px;
 }
 
+.ita {
+    color: #ffffff;
+}
 
 /**** stelle ****/
 
@@ -240,11 +237,52 @@ span {
     width: 631px;
 }
 
+/**** bandiera ****/
+
+.bandiera {
+    width: 20px;
+    
+}
+
+
+/** icone **/
+
+.icone {
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+.fa-twitter {
+    padding-right: 30px;
+}
+.fa-instagram {
+    padding-right: 30px;
+}
+.fa-facebook{
+    padding-right: 30px;
+}
+
+/***** elenco puntato ******/
+
+ul {
+    list-style: none;
+}
+
+li{
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.primo {
+    color: #7288da;
+}
+
 /****** da rimuovere *****/
 
 /*.debug .row-6 {
     height: 900px;
-}*/
+}
 
 
 
@@ -255,4 +293,4 @@ span {
 
 .debug .container-8 {
     height: 80px;
-}
+}*/
