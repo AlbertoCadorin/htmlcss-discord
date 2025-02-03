@@ -48,12 +48,13 @@
 .bg-blue{
     background-image: url('/img/jumbo.png');
     background-repeat: no-repeat;
-    background-size: 2504px 565px;
+    background-size: 2504px 700px;
     padding-bottom: 130px;
+    height: 700px;
 }
 
 .bg-gray{
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 
 .bg-black {
@@ -73,7 +74,6 @@
 /********** container *************/
 
 .container {
-    height: 500px;
     width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -117,7 +117,6 @@
 
 .row-1 {
     text-align: center;
-    padding-top: 30px;
     font-size: 30px;
 }
 
@@ -127,7 +126,6 @@
 
 .row-3 {
     width: 480px;
-    background-color: #ffc0cb;
 }
 
 
@@ -139,8 +137,8 @@
 /******** section ************/
 
 main > section {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 /********** footer ************/
@@ -194,6 +192,20 @@ button {
     border: none;
     border-radius: 20px;
     padding: 10px 20px;
+    font-size: 15px;
+}
+
+ .browser{
+    color: #ffffff;
+    background-color: #23272a;
+}
+
+/***** titoli container *****/
+
+h2 {
+    font-size: 55px;
+    padding-top: 30px;
+    padding-bottom: 35px;
 }
 
 /*** paragrafi ***/
@@ -204,6 +216,10 @@ p {
     padding-bottom: 40px;
     color: #ffffff;
 }
+span {
+    color: black;
+    font-size: 20px;
+}
 
 /****** da rimuovere *****/
 
@@ -211,9 +227,7 @@ p {
     height: 900px;
 }
 
-.debug .row-1 {
-    height: 400px;
-}
+
 
 .debug .container-7 {
     height: 578px;
