@@ -4,27 +4,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica Neue Helvetica, Arial, sans-serif;
 }
 
 /* utilities header */
 .login{
     flex-grow: 1;
     text-align: end;
+    align-self: center;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .logo{
-    flex-grow: 1;    
+    flex-grow: 1; 
+    padding-top: 6px;  
 }
 
 .link{
     flex-grow: 5;
     text-align: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
 }
 
+.link > div {
+    padding: 13px 30px;
+    color: #ffffff;
+}
 /************* utilities main *************/
 
 .bg-azure{
-    background-color: #add8e6;
+    background-color: #255ee9;
     height: 80px;
     padding: 20px 360px 20px 360px;
 }
@@ -72,11 +84,6 @@
     margin: 0 auto;
 }
 
-.container-1 > nav {
-    background-color: #daa520;
-    border: 1px dotted black ;
-    padding: 10px;
-}
 
 .container-2 {
     width: 800px;
@@ -181,7 +188,14 @@ main > section {
     padding: 10px;
 }
 
+/******* bottoni *******/
 
+button {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
 
 /****** da rimuovere *****/
 
