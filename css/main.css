@@ -46,8 +46,10 @@
 }
 
 .bg-blue{
-    background-color: #00008b;
-    border-bottom: 5px solid #add8e6 ;
+    background-image: url('/img/jumbo.png');
+    background-repeat: no-repeat;
+    background-size: 2504px 565px;
+    padding-bottom: 130px;
 }
 
 .bg-gray{
@@ -88,6 +90,8 @@
 .container-2 {
     width: 800px;
     margin: 0 auto;
+    color: #ffffff;
+    padding-top: 80px;
 }
 
 .container-6 {
@@ -99,7 +103,6 @@
     display: flex;
     width: 1200px;
     margin: 0 auto;
-    border: 2px dotted black;
 }
 
 .container-8 {
@@ -113,28 +116,24 @@
 /****** row *********/
 
 .row-1 {
-    background-color: #ee82ee;
-    border-radius: 10px;
-    border: 2px dotted black;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
 }
 
 .row-2 {
     flex-grow: 1;
-    background-color: #1e90ff;
-    border: 2px dotted black;
 }
 
 .row-3 {
     width: 480px;
     background-color: #ffc0cb;
-    border: 2px dotted black;
 }
 
 
 .row-6 {
     background-color: #228b22;
     width: 1200px;
-    border: 2px dotted black;
 }
 
 /******** section ************/
@@ -195,6 +194,15 @@ button {
     border: none;
     border-radius: 20px;
     padding: 10px 20px;
+}
+
+/*** paragrafi ***/
+
+p {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    color: #ffffff;
 }
 
 /****** da rimuovere *****/
