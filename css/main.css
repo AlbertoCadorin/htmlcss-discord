@@ -1,0 +1,203 @@
+/**  reset **/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utilities header */
+.login{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.logo{
+    flex-grow: 1;    
+}
+
+.link{
+    flex-grow: 5;
+    text-align: center;
+}
+
+/************* utilities main *************/
+
+.bg-azure{
+    background-color: #add8e6;
+    height: 80px;
+    padding: 20px 360px 20px 360px;
+}
+
+.bg-white{
+    background-color: #ffffff;
+}
+
+.bg-blue{
+    background-color: #00008b;
+    border-bottom: 5px solid #add8e6 ;
+}
+
+.bg-gray{
+    background-color: #d3d3d3;
+}
+
+.bg-black {
+    background-color: #23272a;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 5px solid white;
+}
+
+.bg-black-foot {
+    background-color: #23272a;
+    padding-top: 20px;
+    border-bottom: 5px solid white;
+}
+
+
+/********** container *************/
+
+.container {
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container-1{ 
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container-1 > nav {
+    background-color: #daa520;
+    border: 1px dotted black ;
+    padding: 10px;
+}
+
+.container-2 {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container-6 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container-7 {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    border: 2px dotted black;
+}
+
+.container-8 {
+    background-color: #7fffd4;
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+/****** row *********/
+
+.row-1 {
+    background-color: #ee82ee;
+    border-radius: 10px;
+    border: 2px dotted black;
+}
+
+.row-2 {
+    flex-grow: 1;
+    background-color: #1e90ff;
+    border: 2px dotted black;
+}
+
+.row-3 {
+    width: 480px;
+    background-color: #ffc0cb;
+    border: 2px dotted black;
+}
+
+
+.row-6 {
+    background-color: #228b22;
+    width: 1200px;
+    border: 2px dotted black;
+}
+
+/******** section ************/
+
+main > section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/********** footer ************/
+
+.foo-1 {
+    background-color: #f08080;
+    width: 360px;
+}
+
+.foo-2  {
+    flex-grow: 1;
+    background-color: #20b2aa;
+    border: 2px dotted white;
+}
+
+.foo-3  {
+    flex-grow: 1;
+    background-color: #20b2aa;
+    border: 2px dotted white;
+}
+
+.foo-4  {
+    flex-grow: 1;
+    background-color: #20b2aa;
+    border: 2px dotted white;
+}
+
+.foo-5  {
+    flex-grow: 1;
+    background-color: #20b2aa;
+    border: 2px dotted white;
+}
+
+
+.bottone {
+    background-color: #ffb6c1;
+    border: 2px dotted black;
+    padding: 10px;
+}
+
+.logo-foot{
+    background-color: #ffb6c1;
+    border: 2px dotted black;
+    padding: 10px;
+}
+
+
+
+/****** da rimuovere *****/
+
+.debug .row-6 {
+    height: 900px;
+}
+
+.debug .row-1 {
+    height: 400px;
+}
+
+.debug .container-7 {
+    height: 578px;
+}  
+
+
+.debug .container-8 {
+    height: 80px;
+}
