@@ -48,9 +48,9 @@
 .bg-blue{
     background-image: url('/img/jumbo.png');
     background-repeat: no-repeat;
-    background-size: 2504px 700px;
-    padding-bottom: 130px;
-    height: 700px;
+    background-size: cover;
+    background-position: center;
+    height: 880px;
 }
 
 .bg-gray{
@@ -69,6 +69,9 @@
     padding-top: 20px;
 }
 
+img {
+    width: 100%;
+}
 
 /********** container *************/
 
@@ -90,7 +93,7 @@
     width: 800px;
     margin: 0 auto;
     color: #ffffff;
-    padding-top: 80px;
+    padding-top: 120px;
 }
 
 .container-6 {
@@ -130,7 +133,6 @@
     width: 480px;
 }
 
-
 .row-6 {
     width: 1200px;
     text-align: center;
@@ -149,22 +151,9 @@ main > section {
     width: 360px;
 }
 
-.foo-2  {
+.foo  {
     flex-grow: 1;
 }
-
-.foo-3  {
-    flex-grow: 1;
-}
-
-.foo-4  {
-    flex-grow: 1;
-}
-
-.foo-5  {
-    flex-grow: 1;
-}
-
 
 /******* bottoni *******/
 
@@ -173,12 +162,18 @@ button {
     border: none;
     border-radius: 20px;
     padding: 10px 20px;
-    font-size: 15px;
+    font-size: 17px;
 }
 
  .browser{
     color: #ffffff;
     background-color: #23272a;
+    font-size: 20px;
+}
+
+.mac {
+    font-size: 20px;
+
 }
 
 .mac-stars {
@@ -193,7 +188,6 @@ button {
     color: #ffffff;
 
 }
-
 
 /***** titoli container *****/
 
@@ -217,18 +211,16 @@ h4{
 /*** paragrafi ***/
 
 p {
-    font-size: 20px;
+    font-size: 25px;
     padding-top: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     color: #ffffff;
+    line-height: 32px;
 }
 span {
     color: black;
     font-size: 20px;
-}
-
-.ita {
-    color: #ffffff;
+    line-height: 32px;
 }
 
 /**** stelle ****/
@@ -243,7 +235,9 @@ span {
     width: 20px;
     
 }
-
+.ita {
+    color: #ffffff;
+}
 
 /** icone **/
 
